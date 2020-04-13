@@ -154,7 +154,7 @@ public class LoginPage extends SuperClass {
 		Thread.sleep(3000);
 		String str=fifthfeature.getText();
 		Thread.sleep(3000);
-		File datafile=new File("D:\\Users\\Vipin\\eclipse-workspace\\WiproAssignment-Selenium\\Data\\Write.txt");
+		File datafile=new File("C:\\project\\projecttest\\Data\\Write.txt");
 		FileUtils.writeStringToFile(datafile, str);
 		addtocartbtn.click();
 		shoppingcartbtn.click();
@@ -202,7 +202,7 @@ public class LoginPage extends SuperClass {
 		hpshoppingcart.click();
 		String str=totalValue.getText();
 		System.out.println(str);
-		File datafile=new File("D:\\Users\\Vipin\\eclipse-workspace\\WiproAssignment-Selenium\\Data\\Value.txt");
+		File datafile=new File("C:\\project\\projecttest\\Data\\Data\\Value.txt");
 		FileUtils.writeStringToFile(datafile, str);
 		System.out.println("Total value is printed on flat file");
 		Thread.sleep(3000);

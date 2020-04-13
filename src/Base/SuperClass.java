@@ -6,14 +6,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-
 public class SuperClass {
 	public WebDriver driver;
 	@BeforeClass
 	public void openBrowser()
 	{
 		String baseurl="https://demo.opencart.com/";
-		System.setProperty("webdriver.chrome.driver", "D:\\Users\\Vipin\\eclipse-workspace\\WiproAssignment-Selenium\\Drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\project\\projecttest\\Drivers\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get(baseurl);

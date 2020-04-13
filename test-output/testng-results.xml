@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="126989" started-at="2020-04-10T05:01:06Z" finished-at="2020-04-10T05:03:13Z">
+  <suite name="Default suite" duration-ms="244607" started-at="2020-04-13T10:23:15Z" finished-at="2020-04-13T10:27:19Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="126989" started-at="2020-04-10T05:01:06Z" finished-at="2020-04-10T05:03:13Z">
+    <test name="Default test" duration-ms="244607" started-at="2020-04-13T10:23:15Z" finished-at="2020-04-13T10:27:19Z">
       <class name="Scripts.EndToEndProccess">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Scripts.EndToEndProccess@15e586c]" name="openBrowser" is-config="true" duration-ms="15647" started-at="2020-04-10T10:31:06Z" finished-at="2020-04-10T10:31:22Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Scripts.EndToEndProccess@1938003]" name="openBrowser" is-config="true" duration-ms="71749" started-at="2020-04-13T15:53:15Z" finished-at="2020-04-13T15:54:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="endToEndProccess()[pri:0, instance:Scripts.EndToEndProccess@15e586c]" name="endToEndProccess" duration-ms="106311" started-at="2020-04-10T10:31:22Z" finished-at="2020-04-10T10:33:08Z">
+        <test-method status="PASS" signature="endToEndProccess()[pri:0, instance:Scripts.EndToEndProccess@1938003]" name="endToEndProccess" duration-ms="166668" started-at="2020-04-13T15:54:26Z" finished-at="2020-04-13T15:57:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endToEndProccess -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Scripts.EndToEndProccess@15e586c]" name="closeBrowser" is-config="true" duration-ms="5002" started-at="2020-04-10T10:33:08Z" finished-at="2020-04-10T10:33:13Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Scripts.EndToEndProccess@1938003]" name="closeBrowser" is-config="true" duration-ms="6157" started-at="2020-04-13T15:57:13Z" finished-at="2020-04-13T15:57:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

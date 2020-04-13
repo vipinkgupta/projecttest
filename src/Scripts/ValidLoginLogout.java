@@ -12,7 +12,7 @@ public class ValidLoginLogout extends SuperClass {
 		LoginPage clickLoginButton=new LoginPage(driver);
 		clickLoginButton.clickMyAccount();
 		clickLoginButton.clickLoginMenu();
-		String xl="D:\\Users\\Vipin\\eclipse-workspace\\WiproAssignment-Selenium\\Data\\Credentials.xlsx";
+		String xl="C:\\project\\projecttest\\Data\\Credentials.xlsx";
 		String sheet="Sheet1";
 		int rowCount=Excel.getRowCount(xl, sheet);
 		System.out.println(rowCount);

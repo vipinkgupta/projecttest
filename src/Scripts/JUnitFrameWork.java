@@ -18,7 +18,7 @@ public class JUnitFrameWork {
 	public static void openBrowser()
 	{
 		String baseurl="https://demo.opencart.com/";
-		System.setProperty("webdriver.chrome.driver", "D:\\Users\\Vipin\\eclipse-workspace\\WiproAssignment-Selenium\\Drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\project\\projecttest\\Drivers\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get(baseurl);
